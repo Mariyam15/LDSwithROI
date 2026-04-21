@@ -17,7 +17,7 @@ It detects white and yellow lanes in images using the following steps:
 
 ### Hough line detection
 
-# Lane line fitting and overlay
+### Lane line fitting and overlay
 
 The project saves all intermediate steps and the final lane overlay for every input image.
 
@@ -36,7 +36,7 @@ Install dependencies:
 
 pip3 install opencv-python numpy
 
-Usage
+## Usage
 
 Run the pipeline from the terminal (VS Code terminal or any shell):
 
@@ -63,7 +63,7 @@ results_final/
 
 Each folder contains the corresponding processed images with the same filenames as the input.
 
-Notes
+## Notes
 
 The pipeline supports .jpg, .jpeg, and .png images.
 
