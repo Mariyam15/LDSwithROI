@@ -7,15 +7,15 @@ https://github.com/Mariyam15/LDSwithROI
 This project implements a lane detection pipeline in Python using OpenCV and NumPy.
 It detects white and yellow lanes in images using the following steps:
 
-# HSV color masking for lane colors (yellow & white)
+### HSV color masking for lane colors (yellow & white)
 
-# Gaussian blur for noise reduction
+### Gaussian blur for noise reduction
 
-# Custom Canny edge detection
+### Custom Canny edge detection
 
-# Region of Interest (ROI) masking
+### Region of Interest (ROI) masking
 
-# Hough line detection
+### Hough line detection
 
 # Lane line fitting and overlay
 
