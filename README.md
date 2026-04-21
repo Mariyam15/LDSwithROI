@@ -1,32 +1,34 @@
 MARIYAM FATIMA
+https://github.com/Mariyam15/LDSwithROI
 
-Lane Detection System with ROI 
+
+## Lane Detection System with ROI 
 
 This project implements a lane detection pipeline in Python using OpenCV and NumPy.
 It detects white and yellow lanes in images using the following steps:
 
-HSV color masking for lane colors (yellow & white)
+# HSV color masking for lane colors (yellow & white)
 
-Gaussian blur for noise reduction
+# Gaussian blur for noise reduction
 
-Custom Canny edge detection
+# Custom Canny edge detection
 
-Region of Interest (ROI) masking
+# Region of Interest (ROI) masking
 
-Hough line detection
+# Hough line detection
 
-Lane line fitting and overlay
+# Lane line fitting and overlay
 
 The project saves all intermediate steps and the final lane overlay for every input image.
 
-Folder Structure
+## Folder Structure
 lane_detection/
 ├─ main.py          # Main script, runs the batch processing
 ├─ lane_detector.py # LaneDetector class
 ├─ utils.py         # Helper functions
 ├─ README.md        # This file
 
-Installation
+## Installation
 
 Clone or download the repository.
 
@@ -47,7 +49,7 @@ python3 lane_detection/main.py \
 
 --output_folder: Path where results will be saved. Subfolders for each processing step will be created automatically.
 
-Output
+## Output
 
 The output folder will have the following structure:
 
